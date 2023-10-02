@@ -7,6 +7,9 @@ body {
     margin: auto;
     background-color: aquamarine;
     height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
 }
 
 .message {
