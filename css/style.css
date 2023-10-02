@@ -1,3 +1,48 @@
-body{
-    background: linear-gradient(to left,red,blue);
+body {
+    background: linear-gradient(to left, red, blue);
+}
+
+.container {
+    max-width: 955px;
+    margin: auto;
+    background-color: aquamarine;
+    height: 60vh;
+}
+
+.message {
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 3px;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 10px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+   text-align: center;
+   max-width: 985px;
+   width: 100%;
+}
+#messageInp{
+    width: 85%;
+    border: 2px solid grey;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
 }
